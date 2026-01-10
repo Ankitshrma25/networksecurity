@@ -16,4 +16,4 @@ class DataValidation:
             self._schema_config = read_yaml_file(SCHEMA_FILE_PATH)
         except Exception as e:
             raise NetworkSecurityException(e, sys)  
-        
+         
