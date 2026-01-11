@@ -105,3 +105,4 @@ class DataIngestion:
 
         except Exception as e:
             raise NetworkSecurityException(e, sys)
+            
